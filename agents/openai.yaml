@@ -1,0 +1,4 @@
+interface:
+  display_name: "求职 Agent 约束"
+  short_description: "约束求职岗位筛选、简历生成、消息审批与执行核验全流程"
+  default_prompt: "使用 $career-agent-guard 约束这次求职流程，先验证资料和岗位证据，再生成可审计的决策与执行计划。"
