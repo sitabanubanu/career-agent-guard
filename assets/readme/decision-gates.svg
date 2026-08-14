@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">career-agent-guard decision gates</title>
+  <desc id="desc">A five-gate decision path separates evidence, hard constraints, matching, approval, and verification.</desc>
+  <defs>
+    <linearGradient id="gate-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFC"/>
+      <stop offset="1" stop-color="#E8F0F5"/>
+    </linearGradient>
+    <marker id="gate-arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#284C68"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="480" rx="28" fill="url(#gate-bg)"/>
+  <path d="M48 86H1152" stroke="#B7CAD7"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="52" y="52" font-size="28" font-weight="700" fill="#10263A">A job cannot jump over a gate</text>
+    <text x="52" y="76" font-size="15" fill="#4A6579">关键词只是入口；证据、硬条件、审批和核验决定能否继续。</text>
+
+    <g transform="translate(52 128)">
+      <rect width="196" height="180" rx="16" fill="#FFFFFF" stroke="#45AFA4" stroke-width="2"/>
+      <circle cx="34" cy="36" r="20" fill="#153D4A"/>
+      <text x="34" y="43" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">01</text>
+      <text x="24" y="86" font-size="21" font-weight="700" fill="#10263A">Evidence</text>
+      <text x="24" y="116" font-size="15" fill="#4A6579">完整 JD、来源、</text>
+      <text x="24" y="140" font-size="15" fill="#4A6579">岗位身份可确认</text>
+      <text x="24" y="166" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#268C82">否则 HOLD</text>
+    </g>
+    <g transform="translate(284 128)">
+      <rect width="196" height="180" rx="16" fill="#FFFFFF" stroke="#6EA8FE" stroke-width="2"/>
+      <circle cx="34" cy="36" r="20" fill="#243750"/>
+      <text x="34" y="43" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">02</text>
+      <text x="24" y="86" font-size="21" font-weight="700" fill="#10263A">Hard Gates</text>
+      <text x="24" y="116" font-size="15" fill="#4A6579">类型、城市、经验、</text>
+      <text x="24" y="140" font-size="15" fill="#4A6579">学历、薪资、排除项</text>
+      <text x="24" y="166" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#3D74C5">不满足 REJECT</text>
+    </g>
+    <g transform="translate(516 128)">
+      <rect width="196" height="180" rx="16" fill="#FFFFFF" stroke="#F4B860" stroke-width="2"/>
+      <circle cx="34" cy="36" r="20" fill="#5A4526"/>
+      <text x="34" y="43" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">03</text>
+      <text x="24" y="86" font-size="21" font-weight="700" fill="#10263A">Fit Analysis</text>
+      <text x="24" y="116" font-size="15" fill="#4A6579">职责、技能、项目、</text>
+      <text x="24" y="140" font-size="15" fill="#4A6579">证据和能力缺口</text>
+      <text x="24" y="166" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#A16C13">分数不是权限</text>
+    </g>
+    <g transform="translate(748 128)">
+      <rect width="196" height="180" rx="16" fill="#FFFFFF" stroke="#B07BEA" stroke-width="2"/>
+      <circle cx="34" cy="36" r="20" fill="#533E70"/>
+      <text x="34" y="43" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">04</text>
+      <text x="24" y="86" font-size="21" font-weight="700" fill="#10263A">Approval</text>
+      <text x="24" y="116" font-size="15" fill="#4A6579">具体岗位、具体消息、</text>
+      <text x="24" y="140" font-size="15" fill="#4A6579">具体简历版本、有效期</text>
+      <text x="24" y="166" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#7A51A8">未批准不执行</text>
+    </g>
+    <g transform="translate(980 128)">
+      <rect width="168" height="180" rx="16" fill="#FFFFFF" stroke="#75B98C" stroke-width="2"/>
+      <circle cx="34" cy="36" r="20" fill="#23563A"/>
+      <text x="34" y="43" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">05</text>
+      <text x="24" y="86" font-size="21" font-weight="700" fill="#10263A">Verify</text>
+      <text x="24" y="116" font-size="15" fill="#4A6579">页面或平台证据</text>
+      <text x="24" y="140" font-size="15" fill="#4A6579">关联正确对象</text>
+      <text x="24" y="166" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#2D8650">无证据 UNKNOWN</text>
+    </g>
+
+    <g fill="none" stroke="#284C68" stroke-width="2" marker-end="url(#gate-arrow)">
+      <path d="M250 218H276"/>
+      <path d="M482 218H508"/>
+      <path d="M714 218H740"/>
+      <path d="M946 218H972"/>
+    </g>
+    <path d="M52 356H1148" stroke="#B7CAD7" stroke-dasharray="6 7"/>
+    <text x="52" y="388" font-size="17" font-weight="600" fill="#10263A">决策结果</text>
+    <text x="52" y="416" font-size="15" fill="#4A6579">PASS 只表示可以进入下一阶段；它永远不等于可以直接发送。</text>
+    <text x="52" y="442" font-size="15" fill="#4A6579">REJECT 记录淘汰证据；HOLD 等待补充或人工判断；BLOCKED 停止执行并保留原因。</text>
+  </g>
+</svg>

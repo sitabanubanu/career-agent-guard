@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">career-agent-guard: evidence-first job-search automation</title>
+  <desc id="desc">A policy spine connects candidate profile, job record, decision, approved action, and verified result.</desc>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#10263a"/>
+    </linearGradient>
+    <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#31506b" stroke-width="1" opacity=".22"/>
+    </pattern>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#hero-bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#hero-grid)"/>
+  <path d="M680 0V420" stroke="#31506b" stroke-width="1" opacity=".55"/>
+  <path d="M56 348H1144" stroke="#31506b" stroke-width="1" opacity=".55"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" fill="#F5F7FA">
+    <text x="58" y="68" font-size="18" letter-spacing="3" fill="#45D6C6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">POLICY LAYER / CAREER AUTOMATION</text>
+    <text x="56" y="142" font-size="54" font-weight="700" letter-spacing="-1">career-agent-guard</text>
+    <text x="58" y="184" font-size="25" fill="#D7E2EE">求职 Agent 的策略总闸门</text>
+    <text x="58" y="228" font-size="21" fill="#A6B3C5">Evidence-first. Approval-gated. Verifiable.</text>
+    <text x="58" y="272" font-size="18" fill="#A6B3C5">把搜索、筛选、生成、执行和核验放进同一条可审计流程。</text>
+
+    <g transform="translate(58 304)">
+      <rect width="124" height="34" rx="17" fill="#153D4A" stroke="#45D6C6"/>
+      <text x="62" y="23" text-anchor="middle" font-size="14" letter-spacing="1" fill="#9BF3E6">PROFILE</text>
+      <rect x="138" width="106" height="34" rx="17" fill="#243750" stroke="#6EA8FE"/>
+      <text x="191" y="23" text-anchor="middle" font-size="14" letter-spacing="1" fill="#BBD5FF">DECIDE</text>
+      <rect x="258" width="108" height="34" rx="17" fill="#473B27" stroke="#F4B860"/>
+      <text x="312" y="23" text-anchor="middle" font-size="14" letter-spacing="1" fill="#FFDCA0">APPROVE</text>
+      <rect x="380" width="106" height="34" rx="17" fill="#173B35" stroke="#75E0A3"/>
+      <text x="433" y="23" text-anchor="middle" font-size="14" letter-spacing="1" fill="#B4F6CA">VERIFY</text>
+    </g>
+  </g>
+
+  <g transform="translate(736 52)" filter="url(#soft-shadow)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <rect width="400" height="278" rx="22" fill="#0A1726" stroke="#31506b" stroke-width="2"/>
+    <text x="26" y="34" font-size="15" letter-spacing="2" fill="#A6B3C5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">ONE JOB / ONE TRACE</text>
+    <path d="M62 78H338M62 130H338M62 182H338M62 234H338" stroke="#31506b" stroke-width="2"/>
+    <path d="M62 78V234" stroke="#45D6C6" stroke-width="4"/>
+    <g fill="#07111f" stroke-width="2">
+      <circle cx="62" cy="78" r="13" stroke="#45D6C6"/>
+      <circle cx="62" cy="130" r="13" stroke="#6EA8FE"/>
+      <circle cx="62" cy="182" r="13" stroke="#F4B860"/>
+      <circle cx="62" cy="234" r="13" stroke="#75E0A3"/>
+    </g>
+    <g fill="#F5F7FA">
+      <text x="92" y="84" font-size="19" font-weight="600">PROFILE + EVIDENCE</text>
+      <text x="92" y="136" font-size="19" font-weight="600">JOB RECORD + JD</text>
+      <text x="92" y="188" font-size="19" font-weight="600">DECISION + APPROVAL</text>
+      <text x="92" y="240" font-size="19" font-weight="600">ACTION + VERIFICATION</text>
+    </g>
+    <g fill="#A6B3C5" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+      <text x="92" y="103">facts are source-backed</text>
+      <text x="92" y="155">full JD before fit</text>
+      <text x="92" y="207">score is not permission</text>
+      <text x="92" y="259">no success without proof</text>
+    </g>
+  </g>
+
+  <text x="58" y="386" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#7891A8">READ → DECIDE → DRAFT → CONFIRM → EXECUTE → VERIFY</text>
+</svg>
